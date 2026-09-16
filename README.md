@@ -1,5 +1,15 @@
-# ZYVORA STORE V3 STRONG
+# ZYVORA STORE — FINAL
 
-GitHub Pages ready. Everything required by the storefront is embedded directly in index.html, so there are no asset-path failures.
+GitHub Pages ready. The storefront is self-contained in `index.html`, including its visual assets.
 
-Products and prices are demo content until replaced by the final catalog.
+Final demo features:
+- Premium responsive gaming storefront
+- Product hover effects
+- Functional demo cart drawer
+- Product search
+- Quick product view
+- Newsletter interaction
+- Mobile layout
+- No external asset paths
+
+Products, reviews, prices, warranty/shipping claims and checkout are demo content and should be replaced with actual commercial information before launch.
