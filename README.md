@@ -1,8 +1,7 @@
-# ZYVORA STORE
+# ZYVORA STORE V2
 
-Official ZYVORA gaming storefront.
+Premium gaming storefront concept for GitHub Pages.
 
-## GitHub Pages
-Upload `index.html` and `README.md` directly to the repository root, then enable Pages from `main` / `(root)`.
+Upload all files and the `assets` folder contents to the repository root, preserving the `assets` folder.
 
-PLAY BEYOND.
+Products and prices are demo content until replaced with the final catalog.

@@ -1,40 +1,37 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ZYVORA — PLAY BEYOND.</title>
-<style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#07070b;color:#fff;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
-header{height:76px;padding:0 5%;display:flex;align-items:center;border-bottom:1px solid #29243a;background:#08080d;position:sticky;top:0;z-index:10}
-.logo{font-size:22px;font-weight:900;letter-spacing:5px}.logo span{color:#a855f7}nav{margin:auto;display:flex;gap:34px;font-size:11px;letter-spacing:2px}.cart{font-size:11px;letter-spacing:2px}
-.hero{min-height:650px;padding:80px 7%;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 78% 42%,#35105b 0,#130d24 23%,#07070b 53%)}
-.hero:after{content:"Z";position:absolute;right:5%;font-size:430px;font-weight:900;font-style:italic;color:transparent;-webkit-text-stroke:2px #7c3aed;opacity:.35;transform:rotate(-8deg)}
-.copy{position:relative;z-index:2;max-width:700px}.tag{color:#b68cff;letter-spacing:5px;font-size:10px;font-weight:800}h1{font-size:clamp(70px,10vw,150px);line-height:.8;letter-spacing:-7px;margin:24px 0}.copy p{max-width:500px;color:#b9b5c6;line-height:1.7}
-.btn{display:inline-block;margin-top:24px;padding:18px 28px;background:#8b5cf6;font-size:11px;font-weight:900;letter-spacing:2px}
-.bar{padding:16px;text-align:center;background:#8b5cf6;font-size:10px;font-weight:900;letter-spacing:4px}
-.products{padding:80px 5%;background:#0b0b11}h2{font-size:52px;margin:5px 0 35px;letter-spacing:-3px}.eyebrow{font-size:10px;letter-spacing:4px;color:#8b5cf6}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{border:1px solid #29243a;background:#101018}.visual{height:300px;display:grid;place-items:center;background:radial-gradient(circle,#2a1742,#0b0b10);font-size:90px}.info{padding:18px}.name{display:flex;justify-content:space-between;font-size:12px;font-weight:900}.meta{color:#777184;font-size:9px;margin:7px 0 15px;letter-spacing:1px}
-button{width:100%;padding:13px;background:transparent;color:#fff;border:1px solid #5b3d86;font-size:9px;letter-spacing:2px;cursor:pointer}button:hover{background:#8b5cf6}
-.about{padding:100px 7%;background:#050508;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about h3{font-size:70px;line-height:.85;margin:0;letter-spacing:-4px}.about p{color:#9994a7;line-height:1.8}
-footer{padding:35px 5%;border-top:1px solid #25202f;color:#777184;display:flex;justify-content:space-between;font-size:9px;letter-spacing:2px}
-.toast{position:fixed;right:25px;bottom:25px;background:#8b5cf6;padding:15px 20px;font-size:10px;letter-spacing:2px;transform:translateY(100px);transition:.25s}.toast.show{transform:none}
-@media(max-width:850px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.hero:after{font-size:300px}}
-@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{min-height:600px}.hero:after{font-size:230px;right:-15%}h1{letter-spacing:-4px}.about h3{font-size:50px}footer{flex-direction:column;gap:15px}}
-</style>
-</head>
-<body>
-<header><a class="logo" href="#"><span>Z</span>YVORA</a><nav><a href="#gear">GEAR</a><a href="#gear">NEW RELEASES</a><a href="#about">ABOUT</a></nav><div class="cart">CART (<span id="count">0</span>)</div></header>
-<section class="hero"><div class="copy"><div class="tag">ZYVORA / GAMING HARDWARE</div><h1>PLAY<br>BEYOND.</h1><p>High-performance gaming gear engineered for precision, speed and immersive setups.</p><a class="btn" href="#gear">EXPLORE THE GEAR →</a></div></section>
-<div class="bar">PERFORMANCE / PRECISION / CONTROL / ZYVORA</div>
-<section class="products" id="gear"><div class="eyebrow">ZYVORA / CORE SERIES</div><h2>LEVEL UP YOUR SETUP.</h2><div class="grid">
-<article class="card"><div class="visual">⌨</div><div class="info"><div class="name"><span>ZYVORA K1</span><span>$89.99</span></div><div class="meta">MECHANICAL GAMING KEYBOARD</div><button onclick="add('K1 KEYBOARD')">ADD TO CART</button></div></article>
-<article class="card"><div class="visual">◉</div><div class="info"><div class="name"><span>ZYVORA M1</span><span>$49.99</span></div><div class="meta">ULTRALIGHT GAMING MOUSE</div><button onclick="add('M1 MOUSE')">ADD TO CART</button></div></article>
-<article class="card"><div class="visual">◖◗</div><div class="info"><div class="name"><span>ZYVORA H1</span><span>$79.99</span></div><div class="meta">SURROUND GAMING HEADSET</div><button onclick="add('H1 HEADSET')">ADD TO CART</button></div></article>
-<article class="card"><div class="visual">✦</div><div class="info"><div class="name"><span>ZYVORA C1</span><span>$69.99</span></div><div class="meta">PRO GAMING CONTROLLER</div><button onclick="add('C1 CONTROLLER')">ADD TO CART</button></div></article>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><a class="logo" href="#"><b>Z</b>YVORA</a><nav><a href="#">HOME</a><a href="#shop">SHOP</a><a href="#categories">CATEGORIES</a><a href="#about">ABOUT</a><a href="#support">SUPPORT</a></nav><div class="icons">⌕　♙　🛒 <span id="cart">0</span></div></header>
+
+<section class="hero">
+<div class="hero-bg"></div><div class="shade"></div>
+<div class="hero-copy"><small>GEAR FOR A HIGHER REALITY</small><h1>PLAY<br><em>BEYOND.</em></h1>
+<p>High-performance gaming gear engineered for precision, immersion and no limits.</p>
+<div><a class="primary" href="#shop">SHOP NOW →</a><a class="secondary" href="#categories">EXPLORE GEAR</a></div>
+<div class="benefits"><span>▱ <b>Free Shipping</b><i>On orders over $50</i></span><span>◇ <b>2-Year Warranty</b><i>Play with confidence</i></span><span>◉ <b>24/7 Support</b><i>Gamers help gamers</i></span></div>
 </div></section>
-<section class="about" id="about"><h3>BUILT FOR<br>THE NEXT<br>MOVE.</h3><p>ZYVORA combines competitive performance with a futuristic visual identity. Every product concept is designed around speed, control and the gaming setup experience.<br><br><strong>PLAY BEYOND.</strong></p></section>
-<footer><span>© 2026 ZYVORA</span><span>GAMING HARDWARE / PLAY BEYOND.</span></footer>
-<div class="toast" id="toast"></div>
-<script>let c=0;function add(x){c++;document.getElementById('count').textContent=c;let t=document.getElementById('toast');t.textContent=x+' — ADDED';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1500)}</script>
-</body></html>
+
+<section class="section" id="categories"><div class="heading"><div><h2>SHOP BY CATEGORY</h2><p>Find the perfect gear for your setup.</p></div><a href="#shop">VIEW ALL →</a></div>
+<div class="categories">
+<a><img src="assets/keyboard.jpg"><b>KEYBOARDS</b><span>Precision at your fingertips →</span></a>
+<a><img src="assets/mouse.jpg"><b>MICE</b><span>Speed meets control →</span></a>
+<a><img src="assets/headset.jpg"><b>HEADSETS</b><span>Immersive audio →</span></a>
+<a><img src="assets/controller.jpg"><b>CONTROLLERS</b><span>Play without limits →</span></a>
+<a><img src="assets/mousepad.jpg"><b>ACCESSORIES</b><span>Complete your setup →</span></a>
+<a><img src="assets/setup.jpg"><b>SETUPS</b><span>Build your dream →</span></a>
+</div></section>
+
+<section class="section products" id="shop"><div class="heading"><div><h2>FEATURED PRODUCTS</h2><p>Top performance. Real results.</p></div><a>VIEW ALL →</a></div><div class="product-grid">
+<article class="card"><span class="new">NEW</span><img src="assets/keyboard.jpg"><div class="pad"><b>ZYVORA K1</b><p>Mechanical Gaming Keyboard</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$129.99</strong><button onclick="addCart('ZYVORA K1')">ADD TO CART</button></div></article><article class="card"><span class="new">NEW</span><img src="assets/mouse.jpg"><div class="pad"><b>ZYVORA M1</b><p>Ultra-Light Gaming Mouse</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$69.99</strong><button onclick="addCart('ZYVORA M1')">ADD TO CART</button></div></article><article class="card"><span class="new">NEW</span><img src="assets/headset.jpg"><div class="pad"><b>ZYVORA H1</b><p>Wireless Gaming Headset</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$149.99</strong><button onclick="addCart('ZYVORA H1')">ADD TO CART</button></div></article><article class="card"><span class="new">NEW</span><img src="assets/controller.jpg"><div class="pad"><b>ZYVORA C1</b><p>Pro Gaming Controller</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$99.99</strong><button onclick="addCart('ZYVORA C1')">ADD TO CART</button></div></article><article class="card"><span class="new">NEW</span><img src="assets/mousepad.jpg"><div class="pad"><b>ZYVORA MP1</b><p>Extended Gaming Mousepad</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$34.99</strong><button onclick="addCart('ZYVORA MP1')">ADD TO CART</button></div></article><article class="card"><span class="new">NEW</span><img src="assets/setup.jpg"><div class="pad"><b>ZYVORA S1</b><p>Gaming Setup Bundle</p><div class="rating">★★★★★ <span>(48)</span></div><strong>$499.99</strong><button onclick="addCart('ZYVORA S1')">ADD TO CART</button></div></article>
+</div></section>
+
+<section class="promo" id="about"><div><h2>BUILT FOR<br>WHAT'S NEXT.</h2><p>Performance. Style. No limits.</p><a class="primary" href="#shop">SHOP THE COLLECTION →</a></div></section>
+
+<footer id="support"><div class="footbrand"><div class="logo"><b>Z</b>YVORA</div><p>Play Beyond.</p></div>
+<div><b>Shop</b><a>Keyboards</a><a>Mice</a><a>Headsets</a><a>Controllers</a><a>Accessories</a></div>
+<div><b>Support</b><a>Help Center</a><a>Shipping</a><a>Returns</a><a>Warranty</a><a>Contact Us</a></div>
+<div><b>Company</b><a>About ZYVORA</a><a>Our Mission</a><a>Community</a><a>Careers</a></div>
+<div class="newsletter"><b>Join the Movement</b><p>Get the latest drops, deals and news.</p><div><input placeholder="Your email"><button>SUBSCRIBE</button></div></div></footer>
+<div class="copyright">© 2026 ZYVORA. Concept storefront — demo products and pricing. <span>Gear for a Higher Reality.</span></div>
+<div class="toast" id="toast">ADDED TO CART</div><script src="script.js"></script></body></html>
