@@ -1,7 +1,5 @@
-# ZYVORA STORE V2
+# ZYVORA STORE V3 STRONG
 
-Premium gaming storefront concept for GitHub Pages.
+GitHub Pages ready. Everything required by the storefront is embedded directly in index.html, so there are no asset-path failures.
 
-Upload all files and the `assets` folder contents to the repository root, preserving the `assets` folder.
-
-Products and prices are demo content until replaced with the final catalog.
+Products and prices are demo content until replaced by the final catalog.
