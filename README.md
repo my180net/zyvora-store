@@ -1,15 +1,15 @@
-# ZYVORA STORE — FINAL
+# ZYVORA STORE V4 — PRODUCT FOCUS
 
-GitHub Pages ready. The storefront is self-contained in `index.html`, including its visual assets.
+GitHub Pages ready.
 
-Final demo features:
-- Premium responsive gaming storefront
-- Product hover effects
-- Functional demo cart drawer
-- Product search
-- Quick product view
-- Newsletter interaction
-- Mobile layout
-- No external asset paths
+V4 improvements:
+- Larger, sharper-looking product presentation
+- More spacing between cards
+- Stronger product names and prices
+- Cleaner premium card styling
+- Improved category cards
+- Better desktop, tablet and mobile scaling
+- Search, cart drawer, quick view and newsletter interactions retained
+- All visual assets embedded in index.html (no broken asset paths)
 
-Products, reviews, prices, warranty/shipping claims and checkout are demo content and should be replaced with actual commercial information before launch.
+Demo storefront: replace products, prices, reviews, warranty/shipping claims and checkout behavior with actual commercial information before launch.
